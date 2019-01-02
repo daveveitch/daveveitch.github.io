@@ -21,7 +21,7 @@ My other blog can be found <a href="https://daveveitch.wordpress.com/">here</a>.
 </li>
 </ul>
 <ul>
-<li><strong>Rating the Critics: An In-Depth Look at New York Times Film Critics and the Academy of Motion Picture Arts and Sciences Voting Membership</strong>
+<li><strong>Fall 2018 - Rating the Critics: An In-Depth Look at New York Times Film Critics and the Academy of Motion Picture Arts and Sciences Voting Membership</strong>
 <ul>
 <li><a href="https://daveveitch.github.io/movieproject.html">HTML</a>, <a href="https://github.com/daveveitch/UofT/tree/master/STA2453/Project%201/Final%20Report">Github repository</a></li>
 <li>This analysis considers three related questions: are film critics from the NYT able to predict box office hits, what kind of storylines do NYT critics favour, and, what best picture nominees tend to win the Oscar.</li>
@@ -29,7 +29,7 @@ My other blog can be found <a href="https://daveveitch.wordpress.com/">here</a>.
 </li>
 </ul>
 <ul>
-<li><strong>Toronto’s Evolution of Attitudes Towards Real Estate</strong>
+<li><strong>Fall 2018 - Toronto’s Evolution of Attitudes Towards Real Estate</strong>
 <ul>
 <li><a href="https://github.com/daveveitch/UofT/raw/master/STA2101%20-%20Applied%20Stats%201/CADRealEstateProject/STA2101%20Final%20Project%20-%20David%20Veitch.pdf">PDF</a>, <a href="https://github.com/daveveitch/UofT/tree/master/STA2101%20-%20Applied%20Stats%201/CADRealEstateProject">Github repository</a></li>
 <li>This report looks to measure the evolution of Toronto’s attitude towards real estate via applying natural language processing techniques (LDA and sentiment analysis) to newspaper articles.</li>
