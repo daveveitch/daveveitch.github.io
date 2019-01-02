@@ -11,6 +11,10 @@ My other blog can be found <a href="https://daveveitch.wordpress.com/">here</a>.
 
 <a href="https://twitter.com/daveveitch?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @daveveitch</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+
+
+
+
 **Highlighted Projects**
 <div class="entry-content">
 <ul>
