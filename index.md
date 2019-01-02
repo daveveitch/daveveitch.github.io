@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<img src="/assets/selfi2.png" alt="HTML5 Icon" style="width:128px;height:128px;">
+<img src="/assets/selfi2.png" alt="HTML5 Icon" style="width:96px;height:96;">
 
 This is my Github page showcasing some of the work I have done. 
 
