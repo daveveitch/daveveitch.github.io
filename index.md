@@ -39,4 +39,8 @@ My other blog can be found <a href="https://daveveitch.wordpress.com/">here</a>.
 	</div>
 
 
-<a class="twitter-timeline" href="https://twitter.com/daveveitch?ref_src=twsrc%5Etfw">Tweets by daveveitch</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<a class="twitter-timeline"
+  href="https://twitter.com/daveveitch"
+  data-tweet-limit="5">
+Tweets by @daveveitch
+</a>
