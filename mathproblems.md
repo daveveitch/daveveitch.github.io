@@ -1,6 +1,6 @@
 ---
 layout: page
-title: mathproblems
+title: Math Problems
 permalink: /mathproblems/
 ---
 
