@@ -10,7 +10,7 @@ My other blog can be found <a href="https://daveveitch.wordpress.com/">here</a>.
 
 <a href="mailto:daveveitch@gmail.com">E-mail me</a>
 
-**Projects**
+**Highlighted Projects**
 <div class="entry-content">
 <ul>
 <li><b>Fall 2018 - Predicting Fama French Factors Using Machine Learning&nbsp;Techniques</b>
