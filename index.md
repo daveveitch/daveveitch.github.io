@@ -13,7 +13,7 @@ My other blog can be found <a href="https://daveveitch.wordpress.com/">here</a>.
 **Projects**
 <div class="entry-content">
 <ul>
-<li><b>Predicting Fama French Factors Using Machine Learning&nbsp;Techniques</b>
+<li><b>Fall 2018 - Predicting Fama French Factors Using Machine Learning&nbsp;Techniques</b>
 <ul>
 <li><a href="https://github.com/daveveitch/UofT/raw/master/CSC2515%20-%20Intro%20to%20ML/CSC2515Project/Report/PredictingFamaFrenchFactorsUsingML.pdf">PDF</a>, <a href="https://github.com/daveveitch/UofT/tree/master/CSC2515%20-%20Intro%20to%20ML/CSC2515Project">Github repository</a></li>
 <li>This paper applies a variety of machine learning models to the task of predicting two of the Fama-French factors, SMB and HML. For each year of predictions the models are trained on the previous four-hundred months of data. Predictions are&nbsp;made for the period of 1988-2018. The performance of trading strategies based on&nbsp;these predictions are assessed. Our results suggest that machine learning models do possess predictive ability for these factors.</li>
