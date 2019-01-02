@@ -1,3 +1,9 @@
+---
+layout: page
+title: About
+permalink: /about/
+---
+
 <div class="entry-content">
 		<div id="comp-jbftx0jc2balata" class="strc1balata">University of Toronto student interested in math, statistics, and finance. Here you can find some things I have worked on, found interesting, or just felt the need to share.&#8203;</div>
 <div></div>
