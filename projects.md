@@ -1,3 +1,9 @@
+---
+layout: page
+title: Projects
+permalink: /projects/
+---
+
 **Highlighted Projects**
 <div class="entry-content">
 <ul>
