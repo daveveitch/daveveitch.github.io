@@ -2,7 +2,7 @@
 layout: default
 ---
 
-![useful image]({{daveveitch.github.io}}/assets/selfi2.png)
+<img src="/assets/selfi2.png" alt="HTML5 Icon" style="width:128px;height:128px;">
 
 This is my Github page showcasing some of the work I have done. 
 
