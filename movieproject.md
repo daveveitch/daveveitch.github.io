@@ -2,7 +2,6 @@
 layout: default
 ---
 
-<!DOCTYPE html>
 <html>
 <head><meta charset="utf-8" />
 <title>David Veitch - STA2453 Project 1</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
