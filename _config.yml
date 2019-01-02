@@ -5,4 +5,5 @@ twitter_username: daveveitch
 github_username:  daveveitch
 linkedin_username: dveitch
 header_pages:
+  - about.md
   - mathproblems.md
