@@ -8,8 +8,5 @@ This is my Github page showcasing some of the work I have done.
 
 My other blog can be found <a href="https://daveveitch.wordpress.com/">here</a>.
 
-<p>
-E-mail me:
-<a href="mailto:daveveitch@gmail.com?" target="_top">Send Mail</a>
-</p>
+<a href="mailto:daveveitch@gmail.com">E-mail me</a>
 
