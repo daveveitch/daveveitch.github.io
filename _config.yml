@@ -6,6 +6,7 @@ github_username:  daveveitch
 linkedin_username: dveitch
 header_pages:
   - about.md
+  - blog.md
   - contact.md
   - projects.md
   - mathproblems.md
