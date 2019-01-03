@@ -5,6 +5,7 @@ permalink: /projects/
 ---
 
 **Highlighted Projects**
+
 <div class="entry-content">
 <ul>
 <li><b>Fall 2018 - Predicting Fama French Factors Using Machine Learning&nbsp;Techniques</b>
