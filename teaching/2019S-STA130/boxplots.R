@@ -1,0 +1,11 @@
+library(datasets)
+setwd('C:/Users/David/Google Drive/Documents/UofT/MSc/TA/130/Week 3')
+
+png('rplot.png')
+par(mfrow=c(1,5))
+boxplot(EuStockMarkets[,1],main=1, yaxt='n')
+boxplot(LakeHuron,main=2, yaxt='n')
+boxplot(airquality$Wind,main=3, yaxt='n')
+boxplot(lynx,main=4)
+boxplot(rivers,main=5)
+dev.off()
