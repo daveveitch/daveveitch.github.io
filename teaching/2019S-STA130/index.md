@@ -5,6 +5,10 @@ title: Teaching
 
 **Winter 2019 - UofT - STA130**
 
+**Tutorial 4 - 2019-02-01**
+- <a href="https://daveveitch.github.io/teaching/2019S-STA130/Tutorial4.pdf">Slides</a>
+- <a href="https://www.youtube.com/watch?v=_Wk9T_G-u4o">Day in the Life of a Data Scientist Video (Chevron)</a>
+
 **Tutorial 3 - 2019-01-25**
 - <a href="https://daveveitch.github.io/teaching/2019S-STA130/Tutorial3.pdf">Slides</a>
 - <a href="https://daveveitch.github.io/teaching/2019S-STA130/boxplots.R">R code for boxplot question</a>
