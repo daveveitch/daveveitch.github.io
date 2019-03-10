@@ -5,6 +5,9 @@ title: Teaching
 
 **Winter 2019 - UofT - STA130**
 
+**Tutorial 7 - 2019-03-08**
+- <a href="https://daveveitch.github.io/teaching/2019S-STA130/Tutorial7.pdf">Slides</a>
+
 **Tutorial 5 - 2019-02-08**
 - <a href="https://daveveitch.github.io/teaching/2019S-STA130/Tutorial5.pdf">Slides</a>
 - <a href="https://www.youtube.com/watch?v=SwnERfIRVXY">Example of a Bad Presentation (Michael Scott)</a>
