@@ -5,7 +5,7 @@ title: Teaching
 
 **Winter 2019 - UofT - STA130**
 
-**Tutorial 8 - 2019-03-22**
+**Tutorial 9 - 2019-03-22**
 - <a href="https://daveveitch.github.io/teaching/2019S-STA130/Tutorial9.pdf">Slides</a>
 
 **Tutorial 8 - 2019-03-15**
