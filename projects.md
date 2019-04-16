@@ -13,7 +13,7 @@ permalink: /projects/
 
 **Fall 2018 - Predicting Fama French Factors Using Machine Learning Techniques**: <a href="https://github.com/daveveitch/UofT/raw/master/CSC2515%20-%20Intro%20to%20ML/CSC2515Project/Report/PredictingFamaFrenchFactorsUsingML.pdf">PDF</a>, <a href="https://github.com/daveveitch/UofT/tree/master/CSC2515%20-%20Intro%20to%20ML/CSC2515Project">Github repository</a>
 - This paper applies a variety of machine learning models to the task of predicting two of the Fama-French factors, SMB and HML. For each year of predictions the models are trained on the previous four-hundred months of data. Predictions are made for the period of 1988-2018. The performance of trading strategies based on these predictions are assessed. Our results suggest that machine learning models do possess predictive ability for these factors.
-<p style="text-align:center;"><img src="/assets/famafrenchpic.PNG" alt="HTML5 Icon" width="771" height="440"></p>
+<p style="text-align:center;"><img src="/assets/famafrenchpic.PNG" alt="HTML5 Icon" width="513" height="293"></p>
 
 **Fall 2018 - Rating the Critics: An In-Depth Look at New York Times Film Critics and the Academy of Motion Picture Arts and Sciences Voting Membership**: <a href="https://daveveitch.github.io/movieproject.html">HTML</a>, <a href="https://github.com/daveveitch/UofT/tree/master/STA2453/Project%201/Final%20Report">Github repository</a>
 - This analysis considers three related questions: are film critics from the NYT able to predict box office hits, what kind of storylines do NYT critics favour, and, what best picture nominees tend to win the Oscar.
