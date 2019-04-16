@@ -12,6 +12,7 @@ permalink: /projects/
 <ul>
 <li><a href="https://github.com/daveveitch/UofT/raw/master/STA2453/Project%202/FinalSubmission/FinalReport.pdf">PDF</a>, <a href="https://github.com/daveveitch/UofT/tree/master/STA2453/Project%202/FinalSubmission">Github repository</a>, <a href="https://daveveitch.github.io/assets/MtgDefaultMNLogit.html">HTML</a></li>
 <li>The primary goal of this project was to create an interpretable model to predict defaults on the Freddie Mac single-family mortgage loan-level dataset.</li>
+<li>This project was done in collaboration with industry partner CPPIB.</li>
 </ul>
 </li>
 </ul>
