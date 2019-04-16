@@ -8,6 +8,14 @@ permalink: /projects/
 
 <div class="entry-content">
 <ul>
+<li><b>Winter 2019 - Modelling Default Rates of Single-Family Mortgage Loans with Multinomial Logistic Regression</b>
+<ul>
+<li><a href="https://github.com/daveveitch/UofT/raw/master/STA2453/Project%202/FinalSubmission/FinalReport.pdf">PDF</a>, <a href="https://github.com/daveveitch/UofT/tree/master/STA2453/Project%202/FinalSubmission">Github repository</a>, <a href="https://daveveitch.github.io/assets/MtgDefaultMNLogit.html">HTML</a></li>
+<li>The primary goal of this project was to create an interpretable model to predict defaults on the Freddie Mac single-family mortgage loan-level dataset.</li>
+</ul>
+</li>
+</ul>
+<ul>
 <li><b>Fall 2018 - Predicting Fama French Factors Using Machine Learning&nbsp;Techniques</b>
 <ul>
 <li><a href="https://github.com/daveveitch/UofT/raw/master/CSC2515%20-%20Intro%20to%20ML/CSC2515Project/Report/PredictingFamaFrenchFactorsUsingML.pdf">PDF</a>, <a href="https://github.com/daveveitch/UofT/tree/master/CSC2515%20-%20Intro%20to%20ML/CSC2515Project">Github repository</a></li>
