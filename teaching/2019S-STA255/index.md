@@ -5,6 +5,9 @@ title: Teaching
 
 **Summer 2019 - UofT - STA255**
 
+**Tutorial 8 - 2019-08-06**
+- <a href="https://daveveitch.github.io/teaching/2019S-STA255/Tutorial8.pdf">Slides</a>
+
 **Tutorial 6 - 2019-07-30**
 - <a href="https://daveveitch.github.io/teaching/2019S-STA255/Tutorial6.pdf">Slides</a>
 
