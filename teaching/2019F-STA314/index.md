@@ -5,6 +5,9 @@ title: Teaching
 
 **Fall 2019 - UofT - STA314**
 
+**Tutorial 2 - 2019-09-19**
+- <a href="https://daveveitch.github.io/teaching/2019F-STA314/Tutorial2.html">Boston Housing Example</a>
+
 **Tutorial 1 - 2019-09-13**
 - <a href="https://daveveitch.github.io/teaching/2019F-STA314/Tutorial1.html">R Walkthrough</a>
 
