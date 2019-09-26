@@ -1,0 +1,1 @@
+# This contains the code to create the GIF on my website daveveitch.github.io which is a picture of me in a changing beta distribution.
