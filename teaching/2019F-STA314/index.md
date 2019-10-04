@@ -5,6 +5,9 @@ title: Teaching
 
 **Fall 2019 - UofT - STA314**
 
+**Tutorial 4 - 2019-10-04**
+- <a href="https://daveveitch.github.io/teaching/2019F-STA314/Tutorial4Slides.pdf">Slides</a>
+
 **Tutorial 3 - 2019-09-27**
 - <a href="https://daveveitch.github.io/teaching/2019F-STA314/Tutorial3.html">ISLR Lab 3.6</a>
 
