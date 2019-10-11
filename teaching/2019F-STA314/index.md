@@ -8,6 +8,7 @@ title: Teaching
 **Tutorial 5 - 2019-10-11**
 - <a href="https://daveveitch.github.io/teaching/2019F-STA314/Tutorial5Slides.pdf">Slides</a>
 - <a href="https://daveveitch.github.io/teaching/2019F-STA314/IncomeClassification.csv">Logistic Regression Dataset (Income Classification)</a>
+- <a href="https://create.kahoot.it/share/314-tutorial-5/36879df4-d041-48f6-bb2e-62037a49a356">Midterm Review Kahoot</a>
 
 **Tutorial 4 - 2019-10-04**
 - <a href="https://daveveitch.github.io/teaching/2019F-STA314/Tutorial4Slides.pdf">Slides</a>
