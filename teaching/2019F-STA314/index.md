@@ -5,6 +5,10 @@ title: Teaching
 
 **Fall 2019 - UofT - STA314**
 
+**Tutorial 5 - 2019-10-11**
+- <a href="https://daveveitch.github.io/teaching/2019F-STA314/Tutorial5Slides.pdf">Slides</a>
+- <a href="https://daveveitch.github.io/teaching/2019F-STA314/IncomeClassification.csv">Logistic Regression Dataset (Income Classification)</a>
+
 **Tutorial 4 - 2019-10-04**
 - <a href="https://daveveitch.github.io/teaching/2019F-STA314/Tutorial4Slides.pdf">Slides</a>
 
