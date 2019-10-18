@@ -7,6 +7,8 @@ title: Teaching
 
 **Tutorial 6 - 2019-10-18**
 - <a href="https://daveveitch.github.io/teaching/2019F-STA314/Smarket.csv">Stock Market Data</a>
+- <a href="https://daveveitch.github.io/teaching/2019F-STA314/Tutorial6.html">ISLR Lab 4.2</a>
+- <a href="https://daveveitch.github.io/teaching/2019F-STA314/Smarketadvanced.csv">Stock Market Data (Advanced)</a>
 
 **Tutorial 5 - 2019-10-11**
 - <a href="https://daveveitch.github.io/teaching/2019F-STA314/Tutorial5Slides.pdf">Slides</a>
