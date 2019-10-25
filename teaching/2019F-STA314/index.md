@@ -5,6 +5,9 @@ title: Teaching
 
 **Fall 2019 - UofT - STA314**
 
+**Tutorial 7 - 2019-10-25**
+- <a href="https://daveveitch.github.io/teaching/2019F-STA314/Tutorial7.html">Tutorial 7 R Code</a>
+
 **Tutorial 6 - 2019-10-18**
 - <a href="https://daveveitch.github.io/teaching/2019F-STA314/Smarket.csv">Stock Market Data</a>
 - <a href="https://daveveitch.github.io/teaching/2019F-STA314/Tutorial6.html">ISLR Lab 4.2</a>
