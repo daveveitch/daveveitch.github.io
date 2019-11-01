@@ -5,6 +5,10 @@ title: Teaching
 
 **Fall 2019 - UofT - STA314**
 
+**Tutorial 8 - 2019-11-01**
+- <a href="https://daveveitch.github.io/teaching/2019F-STA314/Tutorial8Slides.pdf">General Slides</a>
+- <a href="https://daveveitch.github.io/teaching/2019F-STA314/MLESlides.pptx">MLE Slides</a>
+
 **Tutorial 7 - 2019-10-25**
 - <a href="https://daveveitch.github.io/teaching/2019F-STA314/Tutorial7.html">Tutorial 7 R Code</a>
 
