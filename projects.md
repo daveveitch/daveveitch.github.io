@@ -6,6 +6,10 @@ permalink: /projects/
 
 **Highlighted Projects**
 
+**Fall 2019 - MCMC and the Travelling Salesman Problem: The Curse of Dimensionality**: <a href="https://github.com/daveveitch/UofT/raw/master/STA3431/MCMC%20for%20the%20Travelling%20Salesman%20Problem.pdf">PDF</a>, <a href="https://github.com/daveveitch/UofT/tree/master/STA3431">Github Repository</a>
+- This paper analyzes how Simulated Annealing can be applied to the Travelling Salesman Problem. The effect of varying the proposal of new states, employing restarts, and increasing the dimension of the problem are investigated. The results of this analysis show Simulated Annealing is able to effectively find the optimal solution in low dimensions, but struggles to find the optimal solution in higher dimensions..
+<p style="text-align:center;"><img src="https://raw.githubusercontent.com/daveveitch/UofT/master/STA3431/MCMCTSPGif.gif" alt="HTML5 Icon" width="500" height="339"></p>
+
 **Summer 2019 - An Algorithm for Forecasting Time Series From the M4 Competition Dataset**: <a href="https://github.com/daveveitch/UofT/raw/master/Time%20Series%20Reading%20Course/M4ForecastingAlgorithmPaper%20-%20David%20Veitch.pdf">PDF</a>, <a href="https://github.com/daveveitch/UofT/raw/master/Time%20Series%20Reading%20Course/M4ForecastingAlgorithmPresentation%20-%20David%20Veitch.pdf">Presentation Slides</a>
 - In  this  paper  I  describe  the  forecasting  approach  I  used  to  forecast  a  portion  of  the  M4  competition dataset.  Specifically I focus on computing forecasts, and their corresponding prediction intervals, for the time series with monthly frequencies found in the M4 competition dataset.  The models which I used, and ultimately combined, were purely statistical methods.  I also attempt to understand what features of time series lead certain models to outperform others in their forecasting ability.
 <p style="text-align:center;"><img src="https://github.com/daveveitch/UofT/raw/master/Time%20Series%20Reading%20Course/examplets.png" alt="HTML5 Icon" width="443" height="319"></p>
