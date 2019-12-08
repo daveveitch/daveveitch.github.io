@@ -17,3 +17,5 @@ permalink: /about/
 
 <a href="http://www.imdb.com/user/ur83957353/?ref_=nv_usr_prof_2">IMDB</a>
 
+<a href="https://open.spotify.com/playlist/1RuxxCAxrmU7Bi315dMe6k?si=WqMTRIQYThKK6rVRVA0GyA">Spotify Study Playlist</a>
+
