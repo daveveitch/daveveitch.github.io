@@ -4,6 +4,8 @@ title: Blog
 permalink: /blog/
 ---
 
+<a href="https://daveveitch.github.io/blog/20191212.html">2019-12-12 - Nine Rules for Trading</a>
+
 <a href="https://daveveitch.github.io/blog/20190904.html">2019-09-04 - My Favourite Sci-Fi Short Stories</a>
 
 <a href="https://daveveitch.github.io/blog/20190608.html">2019-06-08 - Some Thoughts on Transitioning Into Data Science</a>
