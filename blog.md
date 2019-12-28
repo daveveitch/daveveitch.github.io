@@ -4,6 +4,8 @@ title: Blog
 permalink: /blog/
 ---
 
+<a href="https://daveveitch.github.io/blog/20191228.html">2019-12-28 - Ray Dalio on the Limits of AI</a>
+
 <a href="https://daveveitch.github.io/blog/20191212.html">2019-12-12 - Nine Rules for Trading</a>
 
 <a href="https://daveveitch.github.io/blog/20190904.html">2019-09-04 - My Favourite Sci-Fi Short Stories</a>
