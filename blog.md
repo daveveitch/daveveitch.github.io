@@ -4,6 +4,8 @@ title: Blog
 permalink: /blog/
 ---
 
+<a href="https://daveveitch.github.io/blog/20200317.html">2020-03-17 - COVID-19 and the Economy - Some Thoughts</a>
+
 <a href="https://daveveitch.github.io/blog/20191228.html">2019-12-28 - Ray Dalio on the Limits of AI</a>
 
 <a href="https://daveveitch.github.io/blog/20191212.html">2019-12-12 - Nine Rules for Trading</a>
