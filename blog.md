@@ -40,5 +40,6 @@ permalink: /blog/
 
 <a href="https://daveveitch.github.io/blog/20171230.html">2017-12-30 - Goal for the Site</a>
 
-*Memes*
+**Memes**
+
 <a href="https://daveveitch.github.io/blog/memeroll.html">2017-12-30 - Goal for the Site</a>
