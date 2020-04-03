@@ -8,7 +8,7 @@ A repository of some of original memes I have created
 
 
 04/2020
-<p style="text-align:center;"><img src="/assets/blog/memes/cadbankmeme.png"></p>
+<p style="text-align:center;"><img src="/assets/memes/cadbankmeme.png"></p>
 
 02/2020
-<p style="text-align:center;"><img src="/assets/blog/memes/uncountablememe.png"></p>
+<p style="text-align:center;"><img src="/assets/memes/uncountablememe.png"></p>
