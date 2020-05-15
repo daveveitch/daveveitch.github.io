@@ -15,3 +15,5 @@ permalink: /teaching/
 **Other Resources**
 
 Introduction to Time Series & Forecasting - Brockwell & Davis - 3rd Edition - Solutions (most exercises chapters 1-6) - <a href="https://drive.google.com/open?id=14kxV2Gnkv1iE-HgxCBPelCWcZeRe_8R7">Written</a>, <a href="https://github.com/daveveitch/UofT/tree/master/Time%20Series%20Reading%20Course/BD%20Exercises">Programming</a>
+
+Big O, Little o Probability notation <a href="https://drive.google.com/file/d/1D5iYrDKfL68s2z0-FUUfftrV79G0bPu-/view?usp=sharing">PDF</a> 
