@@ -6,6 +6,9 @@ date: '2020-04-03 00:00:00 -0000'
 
 Some of the original memes I have created
 
+07/2020
+<p style="text-align:center;"><img src="/assets/memes/covidmeme.PNG"></p>
+
 06/2020
 <p style="text-align:center;"><img src="/assets/memes/personalfinancememe.PNG"></p>
 
