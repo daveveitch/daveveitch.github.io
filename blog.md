@@ -4,6 +4,8 @@ title: Blog
 permalink: /blog/
 ---
 
+<a href="https://daveveitch.github.io/blog/20200515.html">2020-10-31 - 3.5 Lessons from Diplomacy</a>
+
 <a href="https://daveveitch.github.io/blog/20200515.html">2020-05-15 - Gold, Gold, Gold</a>
 
 <a href="https://daveveitch.github.io/blog/20200317.html">2020-03-17 - COVID-19 and the Economy - Some Thoughts</a>
