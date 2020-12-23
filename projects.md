@@ -6,6 +6,10 @@ permalink: /projects/
 
 **Highlighted Projects**
 
+**Fall 2020 - The Johnson-Lindenstrauss Lemma: Theory, Extensions, and Applications**: <a href="https://github.com/daveveitch/UofT/raw/master/MAT1850%20-%20Linear%20Algebra%20Optimization/JL%20Lemma%20-%20Theory%20Extensions%20Applications.pdf">PDF</a>, <a href="https://github.com/daveveitch/UofT/raw/master/MAT1850%20-%20Linear%20Algebra%20Optimization/JL%20Lemma%20Presentation.pdf">Presentation</a>
+- The Johnson-Lindenstrauss Lemma serves as the theoretical basis for several random projection dimensionality reduction methods. This paper examines the theory behind random projections, investigates extensions that have recently been made including database friendly random projections, and then explores applying random projections in a regression framework, and a data visualization task.
+<p style="text-align:center;"><img src="https://github.com/daveveitch/UofT/raw/master/MAT1850%20-%20Linear%20Algebra%20Optimization/econrandomproject.png" alt="HTML5 Icon" width="500" height="253" border="5"></p>
+
 **Fall 2019 - MCMC and the Travelling Salesman Problem: The Curse of Dimensionality**: <a href="https://github.com/daveveitch/UofT/raw/master/STA3431/MCMC%20for%20the%20Travelling%20Salesman%20Problem.pdf">PDF</a>, <a href="https://github.com/daveveitch/UofT/tree/master/STA3431">Github Repository</a>
 - This paper analyzes how Simulated Annealing can be applied to the Travelling Salesman Problem. The effect of varying the proposal of new states, employing restarts, and increasing the dimension of the problem are investigated. The results of this analysis show Simulated Annealing is able to effectively find the optimal solution in low dimensions, but struggles to find the optimal solution in higher dimensions.
 <p style="text-align:center;"><img src="https://raw.githubusercontent.com/daveveitch/UofT/master/STA3431/MCMCTSPGif.gif" alt="HTML5 Icon" width="500" height="339" border="5"></p>
