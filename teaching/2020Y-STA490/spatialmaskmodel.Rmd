@@ -1,0 +1,167 @@
+---
+title: "Spatial Modelling Example in R"
+author: "David Veitch"
+date: "20/01/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+This is an R Markdown document to give a minimal example of how to model spatial data in R. It is based off the paper *CARBayes version 5.2.2: An R Package for Spatial Areal Unit Modelling with Conditional Autoregressive Priors*
+
+```{r loadpackages}
+# Load package which serves as basis for this
+library(CARBayes)
+```
+
+Now here we will create a fake dataset. Let's pretend that we are looking at a grid of 12 points, which can be represented as the following 3x4 matrix. I have labelled each cell with a letter representing its name. Take note of which areas are adjacent to each other.
+
+```{r gridconstruction}
+grid_names = matrix(data=seq(1,12),nrow=3)
+grid_names
+```
+
+Here I create a fake dataset where the top left part of the grid has more mask wearers. Also we will introduce two covariates, income and gender. We will make it so that higher income is associated with more mask usage, and also men (gender=1) are more likely to wear masks. We randomly create between 8 and 14 people per region with random gender and income. Our response variable is 'masks', and takes value 1 if an individual wears a mask.
+
+```{r createdata}
+data_df <- data.frame(area=double(),
+                 masks=double(),
+                 income=double(),
+                 gender=double(),
+                 stringsAsFactors=FALSE)
+
+set.seed(1)
+count=1
+
+for(area in seq(1,12)){
+  
+  # Create a random number of people for an area
+  for(i in seq(1,sample(seq(8,14),1))){
+    
+    # Create a fake person
+    gender=round(runif(1)) 
+    income=runif(1,3,9)
+    mask_propensity=.3+((income-6)/3)*.1+gender*.2
+    
+    if(area%in%c(1,2,4,5)){
+      mask_propensity=mask_propensity+.1
+    }
+  
+    # calculate mask wearing
+    data_df[count,]=c(area,
+                      rbinom(1,1,mask_propensity),# 1/0 if wear mask
+                      income,
+                      gender)
+  
+    count=count+1
+  
+  }
+  
+}
+
+data_df[sample(nrow(data_df), 6), ]
+```
+
+Now we need to make an adjacency matrix $W$. This is a $K\times K$ matrix (where $K$ is the number of regions) size. All $w_{j,j}=0$. As well if area $i$ is adjacent to area $j$ then $w_{i,j}=1$. Area 1 is the first row, area 2 the second row, and so on.
+
+```{r adjacencymatrix}
+W=matrix(data=rep(0,12*12),nrow=12)
+
+#        1 2 3 4 5 6 7 8 9 10 11 12
+W[1,]= c(0,1,0,1,0,0,0,0,0, 0, 0, 0) #1
+W[2,]= c(1,0,1,0,1,0,0,0,0, 0, 0, 0) #2
+W[3,]= c(0,1,0,0,0,1,0,0,0, 0, 0, 0) #3
+W[4,]= c(1,0,0,0,1,0,1,0,0, 0, 0, 0) #4
+W[5,]= c(0,1,0,1,0,1,0,1,0, 0, 0, 0) #5
+W[6,]= c(0,0,1,0,1,0,0,0,1, 0, 0, 0) #6
+W[7,]= c(0,0,0,1,0,0,0,1,0, 1, 0, 0) #7
+W[8,]= c(0,0,0,0,1,0,1,0,1, 0, 1, 0) #8
+W[9,]= c(0,0,0,0,0,1,0,1,0, 0, 0, 1) #9
+W[10,]=c(0,0,0,0,0,0,1,0,0, 0, 1, 0) #10
+W[11,]=c(0,0,0,0,0,0,0,1,0, 1, 0, 1) #11
+W[12,]=c(0,0,0,0,0,0,0,0,1, 0, 1, 0) #12
+```
+
+Now the CARBayes package has a number of different models with spatial random effects. I believe that the S.CARmultilevel() model is the one that fits our problem. The reason being is that allows you to group individuals into discrete areas, while at the same time recognizing that each individual person has different characteristics (i.e. income and gender).
+
+There are many modelling choices one can make which are found in the paper. Specifically note that the prior.tau2 I have chosen here may or may not be appropriate for your analysis!!! This is something that you should discuss with your teammates/me when you get to this step to make sure you are not making any major errors.
+
+```{r}
+# Formula of the regression for each individual
+formula_1 <- masks ~ income + gender
+
+# Number of trials per row, since we only have
+# survey data of one observation a time this is
+# all 1's
+trials = rep(1,dim(data_df)[1])
+
+# Fit a model
+model <- S.CARmultilevel(formula=formula_1, 
+                         family="binomial", 
+                         ind.area=data_df$area, # information which area each                                                           observation in
+                         data=data_df,
+                         trials=trials,
+                         prior.tau2 = c(1,3),
+                         W=W, 
+                         burnin=1000, 
+                         n.sample=10000,
+                         ind.re=NULL, # no individual level random effects
+                         rho=1,
+                         verbose=FALSE)
+
+
+```
+
+Here we print the summary results of the model. You can see that the coefficients with respect to income and gender are what we would expect (men wear more masks, rich people wear more masks).
+
+```{r summary}
+model$summary.results
+```
+
+Now the thing which you must remember about these models is that they are Bayesian, so what we are doing is generating lots of samples of what the parameters could possibly be. So we do not know what the 'true' value of the parameters/spatial effects are. However, we can get a good sense of them based off of the posterior distributions.
+
+Here are the posterior distributions for the beta coefficient associated with income. As you can see the posterior takes only positive numbers (which aligns with how we generated the data).
+
+```{r}
+cat('Posterior Mean of Income Coefficient ',mean(model$samples$beta[,2]))
+plot(model$samples$beta[,2])
+```
+
+Next we can get a sense of our spatial random effects. Remember that areas 1,2,4,5 have above average mask wearing. Here we will plot the posterior distribution of area 1's spatial random effect vs. area 12's.
+
+As you can see the distribution of the random effect for area 1 is mostly positive, versus area 12 is mostly negative. This aligns with what we would expect. 
+
+```{r}
+print('Area 1 Spatial Random Effect Posterior')
+plot(model$samples$phi[,1])
+print('Area 12 Spatial Random Effect Posterior')
+plot(model$samples$phi[,12])
+```
+
+Finally we can show the matrix of spatial random effects, here each entry is the posterior mean of the spatial random effect associated with a given area.
+
+As you can see the top left area has positive numbers, and all other areas are negative, this aligns with what we expected to happen!
+
+```{r}
+spatial_matrix=matrix(data=c(mean(model$samples$phi[,1]),
+                             mean(model$samples$phi[,2]),
+                             mean(model$samples$phi[,3]),
+                             mean(model$samples$phi[,4]),
+                             mean(model$samples$phi[,5]),
+                             mean(model$samples$phi[,6]),
+                             mean(model$samples$phi[,7]),
+                             mean(model$samples$phi[,8]),
+                             mean(model$samples$phi[,9]),
+                             mean(model$samples$phi[,10]),
+                             mean(model$samples$phi[,11]),
+                             mean(model$samples$phi[,12])),
+                      nrow=3)
+
+spatial_matrix
+```
+
+Again this is a minimal example, but it should serve as a framework for you to create a more complicated model with a subset of your data. As I have suggested I would recommend looking at a big city (i.e. Toronto/Vancouver/Montreal). The most labour intensive thing will be creating an adjaceny matrix (it could be made less labour intensive if you decide to group area codes together...that being said it shouldn't take that long to create the neighbourhood matrix). Once you have done this, and the necessary data wrangling, you must make careful modelling decisions. Feel free to discuss with your teammates/TA with respect to these decisions.
+
+After this is done I think a good way to communicate your findings is a map of a city with the spatial random effect superimposed on top of it. It will demonstrate which areas have very high/low mask wearing which is not accounted for by your covariates.

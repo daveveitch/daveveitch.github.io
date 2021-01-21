@@ -6,6 +6,8 @@ permalink: /teaching/
 
 **Courses**
 
+<a href="https://daveveitch.github.io/teaching/2020Y-STA490/">2020-2021 - UofT - TA for STA490</a>
+
 <a href="https://daveveitch.github.io/teaching/2019F-STA314/">Fall 2019 - UofT - TA for STA314</a>
 
 <a href="https://daveveitch.github.io/teaching/2019S-STA255/">Summer 2019 - UofT - TA for STA255</a>
