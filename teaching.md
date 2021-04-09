@@ -21,3 +21,5 @@ Introduction to Time Series & Forecasting - Brockwell & Davis - 3rd Edition - So
 Big O, Little o Probability notation <a href="https://drive.google.com/file/d/1D5iYrDKfL68s2z0-FUUfftrV79G0bPu-/view?usp=sharing">PDF</a> 
 
 Vector Autoregressive Model Example  <a href="https://daveveitch.github.io/assets/GoogleFluVAR.html">HTML File</a> 
+
+Wigner Semicircle Lecture - notes for a lecture I gave in a grad topics class about the Wigner Semicircle disribution  <a href="https://daveveitch.github.io/teaching/2021-MAT1128/wignerlecture.pdf">PDF</a> 
