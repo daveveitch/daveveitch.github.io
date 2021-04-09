@@ -22,4 +22,4 @@ Big O, Little o Probability notation <a href="https://drive.google.com/file/d/1D
 
 Vector Autoregressive Model Example  <a href="https://daveveitch.github.io/assets/GoogleFluVAR.html">HTML File</a> 
 
-Wigner Semicircle Lecture - notes for a lecture I gave in a grad topics class about the Wigner Semicircle disribution  <a href="https://daveveitch.github.io/teaching/2021-MAT1128/wignerlecture.pdf">PDF</a> 
+Wigner Semicircle Lecture - notes for a lecture I gave in a grad topics class about the Wigner Semicircle distribution  <a href="https://daveveitch.github.io/teaching/2021-MAT1128/wignerlecture.pdf">PDF</a> 
