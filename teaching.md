@@ -26,4 +26,4 @@ Wigner Semicircle Lecture - notes for a lecture I gave in a grad topics class ab
 
 Nonparametric regression for locally stationary time series presentation - presentation I gave on the <a href="https://www.jstor.org/stable/41806549">paper of the same name</a>  by Michael Vogt <a href="https://daveveitch.github.io/teaching/2022-STA4506/nstspresentation.pdf">PDF</a> 
 
-Detecting changes in the covariance structure of functional time series with application to fMRI data - presentation I gave on the <a href="https://doi.org/10.1016/j.ecosta.2020.04.004">paper of the same name</a> by Christina Stoehr, John A D Aston, and Claudia Kirch <a href="https://daveveitch.github.io/teaching/Other/covariancechangepresentation.pdf">PDF</a>. 
+Detecting changes in the covariance structure of functional time series with application to fMRI data - presentation I gave on the <a href="https://doi.org/10.1016/j.ecosta.2020.04.004">paper of the same name</a> by Christina Stoehr, John A D Aston, and Claudia Kirch <a href="https://daveveitch.github.io/teaching/Other/covariancechangepresentation.pdf">PDF</a>
