@@ -4,7 +4,11 @@ title: Projects
 permalink: /projects/
 ---
 
-**Highlighted Projects**
+**Thesis Research**
+
+Stay tuned, two preprints expected Fall 2023.
+
+**Other Projects**
 
 **Fall 2020 - The Johnson-Lindenstrauss Lemma: Theory, Extensions, and Applications**: <a href="https://github.com/daveveitch/UofT/raw/master/MAT1850%20-%20Linear%20Algebra%20Optimization/JL%20Lemma%20-%20Theory%20Extensions%20Applications.pdf">PDF</a>, <a href="https://github.com/daveveitch/UofT/raw/master/MAT1850%20-%20Linear%20Algebra%20Optimization/JL%20Lemma%20Presentation.pdf">Presentation</a>
 - The Johnson-Lindenstrauss Lemma serves as the theoretical basis for several random projection dimensionality reduction methods. This paper examines the theory behind random projections, investigates extensions that have recently been made including database friendly random projections, and then explores applying random projections in a regression framework, and a data visualization task.
