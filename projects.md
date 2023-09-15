@@ -6,7 +6,7 @@ permalink: /projects/
 
 **Thesis Research**
 
-Stay tuned, two preprints expected Fall 2023.
+Coming soon. One preprint coming in September 2023 (changepoint detection for rs-fMRI data), and another in Fall 2023 (multiscale jump detection for high dimensional nonstationary time series).
 
 **Other Projects**
 
