@@ -8,6 +8,12 @@ permalink: /projects/
 
 Coming soon. One preprint coming in September 2023 (changepoint detection for rs-fMRI data), and another in Fall 2023 (multiscale jump detection for high dimensional nonstationary time series).
 
+**Presentations**
+Rank-adaptive covariance changepoint detection for estimating dynamic functional connectivity from fMRI data - August 2023 - JSM 
+Powerful Concepts from Nonstationary Time Series Analysis - <a href="https://github.com/daveveitch/Presentations/blob/main/nstspresentation2.pdf">Slides</a> - May 2022 - Stellar Stats Lightning Talk
+Changepoint Detection or: How I Learned to Love the Normal Distribution - <a href="https://github.com/daveveitch/Presentations/blob/main/mjpdpresentation.pdf">Slides</a> - February 2021 - UofT Statistics Student Seminar
+
+
 **Other Projects**
 
 **Fall 2020 - The Johnson-Lindenstrauss Lemma: Theory, Extensions, and Applications**: <a href="https://github.com/daveveitch/UofT/raw/master/MAT1850%20-%20Linear%20Algebra%20Optimization/JL%20Lemma%20-%20Theory%20Extensions%20Applications.pdf">PDF</a>, <a href="https://github.com/daveveitch/UofT/raw/master/MAT1850%20-%20Linear%20Algebra%20Optimization/JL%20Lemma%20Presentation.pdf">Presentation</a>
