@@ -12,6 +12,8 @@ Another preprint for multiscale jump detection for high dimensional nonstationar
 
 **Presentations**
 
+Rank-adaptive covariance changepoint detection for estimating dynamic functional connectivity from fMRI data - <a href="https://github.com/daveveitch/Presentations/blob/main/enarpresentation.pdf">Slides</a> - March 2024 - ENAR (note this paper was awarded a Student Paper Award at ENAR 2024)
+
 Rank-adaptive covariance changepoint detection for estimating dynamic functional connectivity from fMRI data - <a href="https://github.com/daveveitch/Presentations/blob/main/jsmpresentation.pdf">Slides</a> - August 2023 - JSM
 
 Powerful Concepts from Nonstationary Time Series Analysis - <a href="https://github.com/daveveitch/Presentations/blob/main/nstspresentation2.pdf">Slides</a> - May 2022 - UofT Stellar Stats Lightning Talk
