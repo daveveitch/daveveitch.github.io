@@ -8,7 +8,7 @@ permalink: /projects/
 
 David Veitch, Yinqiu He, & Jun Young Park. (2023). Rank-adaptive covariance changepoint detection for estimating dynamic functional connectivity from fMRI data. <a href="https://arxiv.org/abs/2309.10284">Link</a>
 
-Another preprint for multiscale jump detection for high dimensional nonstationary time series coming Fall 2023.
+Another preprint for multiscale jump detection for high dimensional nonstationary time series coming soon.
 
 **Presentations**
 
