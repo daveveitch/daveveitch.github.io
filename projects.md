@@ -7,10 +7,10 @@ permalink: /projects/
 **Thesis Research**
 
 David Veitch, Yinqiu He, & Jun Young Park. (2024). Rank-adaptive covariance testing with applications to genomics and neuroimaging. <a href="https://arxiv.org/abs/2309.10284">Link</a>
-<p style="text-align:center;"><img src="/assets/ractpic.PNG" alt="rank adaptive covariance testing" width="500" height="292" border="5"></p>
+<p style="text-align:center;"><img src="/assets/ractpic.png" alt="rank adaptive covariance testing" width="500" height="292" border="5"></p>
 
 Weichi Wu, David Veitch, & Zhou Zhou. (2024). Asynchronous Jump Testing and Estimation in High Dimensions Under Complex Temporal Dynamics. <a href="https://arxiv.org/abs/2410.23706">Link</a>
-<p style="text-align:center;"><img src="/assets/ractpic.PNG" alt="asynchronous jump testing" width="500" height="147" border="5"></p>
+<p style="text-align:center;"><img src="/assets/ajdnpic.png" alt="asynchronous jump testing" width="500" height="147" border="5"></p>
 
 **Presentations**
 
