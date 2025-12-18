@@ -6,7 +6,7 @@ permalink: /projects/
 
 **Thesis Research**
 
-David Veitch. (2025). Two-sample testing and changepoint detection for high-dimensional data [Doctoral dissertation, University of Toronto].  <a href="https://drive.google.com/file/d/1i02Nl0e-tjUARjunwOzMnPnpaFF7Xmd7/">PDF</a>, <a href="http://myaccess.library.utoronto.ca/login?qurl=https%3A%2F%2Fwww.proquest.com%2Fdissertations-theses%2Ftwo-sample-testing-changepoint-detection-high%2Fdocview%2F3278143054%2Fse-2%3Faccountid%3D14771">ProQuest Link</a>
+David Veitch. (2025). Two-sample testing and changepoint detection for high-dimensional data [Doctoral dissertation, University of Toronto].  <a href="https://drive.google.com/file/d/1i02Nl0e-tjUARjunwOzMnPnpaFF7Xmd7/">PDF</a>, <a href="https://www.proquest.com/docview/3278143054">ProQuest Link</a>, <a href="https://utoronto.scholaris.ca/items/9ee3320a-7888-4eb1-a4d2-2bc2d3f39425">UofT Link</a>
 
 David Veitch, Yinqiu He, & Jun Young Park. (2024). Rank-adaptive covariance testing with applications to genomics and neuroimaging. <a href="https://arxiv.org/abs/2309.10284">arXiv</a>, <a href="https://github.com/daveveitch/RACT">R Package</a>
 <p style="text-align:center;"><img src="/assets/ractpic.png" alt="rank adaptive covariance testing" width="500" height="292" border="5"></p>
