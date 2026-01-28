@@ -4,6 +4,8 @@ title: Blog
 permalink: /blog/
 ---
 
+<a href="https://daveveitch.github.io/blog/20260128.html">2026-01-28 - Reflecting on My PhD Experience</a>
+
 <a href="https://daveveitch.github.io/blog/20220107.html">2022-01-07 - My Dumbphone Experience</a>
 
 <a href="https://daveveitch.github.io/blog/20210804.html">2021-08-04 - How I Won the 2021 Citadel-Correlation One PhD Datathon</a>
