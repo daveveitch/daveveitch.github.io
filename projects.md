@@ -6,12 +6,12 @@ permalink: /projects/
 
 **Thesis Research**
 
-Veitch, D. (2025). Two-sample testing and changepoint detection for high-dimensional data (Doctoral dissertation, University of Toronto (Canada)).  <a href="https://drive.google.com/file/d/1i02Nl0e-tjUARjunwOzMnPnpaFF7Xmd7/">PDF</a>, <a href="https://www.proquest.com/docview/3278143054">ProQuest Link</a>, <a href="https://utoronto.scholaris.ca/items/9ee3320a-7888-4eb1-a4d2-2bc2d3f39425">UofT Link</a>
+Veitch, D. (2025). *Two-sample testing and changepoint detection for high-dimensional data* (Doctoral dissertation, University of Toronto (Canada)).  <a href="https://drive.google.com/file/d/1i02Nl0e-tjUARjunwOzMnPnpaFF7Xmd7/">PDF</a>, <a href="https://www.proquest.com/docview/3278143054">ProQuest Link</a>, <a href="https://utoronto.scholaris.ca/items/9ee3320a-7888-4eb1-a4d2-2bc2d3f39425">UofT Link</a>
 
-Veitch, D., He, Y., & Park, J. Y. (2026). Rank-adaptive covariance testing with applications to genomics and neuroimaging. Biometrics, 82(1), ujag052. <a href="https://doi.org/10.1093/biomtc/ujag052">DOI</a>, <a href="https://github.com/daveveitch/RACT">R Package</a>
+Veitch, D., He, Y., & Park, J. Y. (2026). Rank-adaptive covariance testing with applications to genomics and neuroimaging. *Biometrics*, 82(1), ujag052. <a href="https://doi.org/10.1093/biomtc/ujag052">DOI</a>, <a href="https://github.com/daveveitch/RACT">R Package</a>
 <p style="text-align:center;"><img src="/assets/ractpic.png" alt="rank adaptive covariance testing" width="500" height="292" border="5"></p>
 
-Wu, W., Veitch, D., & Zhou, Z. (2024). Asynchronous jump testing and estimation in high dimensions under complex temporal dynamics. arXiv preprint arXiv:2410.23706. <a href="https://arxiv.org/abs/2410.23706">arXiv</a>, <a href="https://github.com/daveveitch/ajdn">R Package</a>
+Wu, W., Veitch, D., & Zhou, Z. (2024). Asynchronous jump testing and estimation in high dimensions under complex temporal dynamics. *arXiv preprint arXiv:2410.23706*. <a href="https://arxiv.org/abs/2410.23706">arXiv</a>, <a href="https://github.com/daveveitch/ajdn">R Package</a>
 <p style="text-align:center;"><img src="/assets/ajdnpic.png" alt="asynchronous jump testing" width="500" height="147" border="5"></p>
 
 **Presentations**
